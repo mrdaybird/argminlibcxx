@@ -16,6 +16,8 @@ The benchmark result files generated from google_benchmark are in the repo:
 - `min_element_after.json`: performance after using the new algorithm. 
 - `min_element_after_novec.json`: performance after using the new algorithm with vectorization
 
+Comparing the results using the `compare.py` provided by google_benchmark-
+
 #### Comparing `min_element_before.json` to `min_element_after_novec.json`
 ```
 Benchmark                                                             Time             CPU      Time Old      Time New       CPU Old       CPU New
